@@ -2,8 +2,10 @@
   width: 80px;
   height: 80px; }
 
-.meals .btn-group {
-  padding-bottom: 14px; }
+.meals {
+  padding-top: 20px; }
+  .meals .btn-group {
+    padding-bottom: 14px; }
 
 .redeem-meal .caption {
   padding-top: 0px;
