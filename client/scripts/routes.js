@@ -9,13 +9,21 @@ function config($stateProvider, $urlRouterProvider) {
             abstract: true,
             templateUrl: 'client/templates/tabs.html'
         })
-
         .state('tab.map', {
             url: '/map',
             views: {
                 'tab-map': {
                     templateUrl: 'client/templates/map.html',
                     controller: 'mapCtrl'
+                }
+            }
+        })
+        .state('tab.meals', {
+            url: '/meals',
+            views: {
+                'tab-meals': {
+                    templateUrl: 'client/templates/meals.html',
+                    controller: 'mealsCtrl'
                 }
             }
         });

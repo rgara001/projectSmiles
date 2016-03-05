@@ -2,7 +2,10 @@ angular
     .module('myApp')
     .controller('mapCtrl', mapCtrl);
 
-function mapCtrl ($scope) {
+function mapCtrl ($scope, $reactive) {
+
+    $reactive(this).attach($scope);
+
     $scope.test= "Angular works"
 
 
