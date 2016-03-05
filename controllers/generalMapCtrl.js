@@ -4,7 +4,7 @@ if (Meteor.isClient) {
             .controller("generalMapCtrl", generalMapCtrl);
 
         function generalMapCtrl($scope){
-            $scope.test = "my Test";
+            $scope.test = "my second Test";
         }
     })();
 }
