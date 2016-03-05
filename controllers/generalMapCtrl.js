@@ -5,6 +5,7 @@ if (Meteor.isClient) {
 
         function generalMapCtrl($scope){
             $scope.test = "my second Test";
+            console.log(Geolocation.latLng());
         }
     })();
 }
