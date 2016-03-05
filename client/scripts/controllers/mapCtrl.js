@@ -5,5 +5,8 @@ angular
 function mapCtrl ($scope) {
     $scope.test= "Angular works"
 
+
+    console.log(Geolocation.latLng());
+
 }
 
