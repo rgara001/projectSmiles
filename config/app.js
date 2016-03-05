@@ -1,5 +1,7 @@
 if (Meteor.isClient) {
     (function(){
-        angular.module('myApp', ['angular-meteor']);
+        angular.module('myApp', [
+            'angular-meteor',
+            'ionic']);
     })();
 }
