@@ -2,32 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c6d9e85-3ba8-4b36-84ef-a47c79bc0bfc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/coyo-taco.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/pt.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/walkingCoyo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ws.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/partials/_images.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/partials/_meals.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/partials/_redeemMeals.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/redeemMeal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/redeemMealCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/scanMeals.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/scanMealsCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/styles.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/styles.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/styles.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/styles.scss" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/partials/_globalStyles.scss" afterPath="$PROJECT_DIR$/styles/partials/_globalStyles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/68cc3be1a0b67d6a6e068f99320482dabec1ee62/styles.scssc" afterPath="$PROJECT_DIR$/.sass-cache/68cc3be1a0b67d6a6e068f99320482dabec1ee62/styles.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.js" afterPath="$PROJECT_DIR$/config/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/scripts/lib/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/chats.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/scripts/routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/styles/styles.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/tabs.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/styles.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/generalMap.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/controllers/generalMapCtrl.js" afterPath="$PROJECT_DIR$/client/scripts/controllers/mapCtrl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/controllers/mealsCtrl.js" afterPath="$PROJECT_DIR$/client/scripts/controllers/mealsCtrl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/controllers/redeemMealCtrl.js" afterPath="$PROJECT_DIR$/client/scripts/controllers/redeemMealCtrl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/controllers/scanMealsCtrl.js" afterPath="$PROJECT_DIR$/client/scripts/controllers/scanMealsCtrl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/partials/_globalStyles.scss" afterPath="$PROJECT_DIR$/client/styles/partials/_globalStyles.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/partials/_images.scss" afterPath="$PROJECT_DIR$/client/styles/partials/_images.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/partials/_meals.scss" afterPath="$PROJECT_DIR$/client/styles/partials/_meals.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/partials/_redeemMeals.scss" afterPath="$PROJECT_DIR$/client/styles/partials/_redeemMeals.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/styles.css" afterPath="$PROJECT_DIR$/client/styles/styles.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/styles.css.map" afterPath="$PROJECT_DIR$/client/styles/styles.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/meals.html" afterPath="$PROJECT_DIR$/client/templates/meals.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/redeemMeal.html" afterPath="$PROJECT_DIR$/client/templates/redeemMeal.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/scanMeals.html" afterPath="$PROJECT_DIR$/client/templates/scanMeals.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/meals.html" afterPath="$PROJECT_DIR$/views/meals.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/platforms" afterPath="$PROJECT_DIR$/.meteor/platforms" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="projectSmiles.iws" />
@@ -50,81 +47,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2027027">
-              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scanMeals.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/scanMeals.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="33" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scanMealsCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/scanMealsCtrl.js">
+      <file leaf-file-name="mapCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/scripts/controllers/mapCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="30" />
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="meals.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/meals.html">
+      <file leaf-file-name="map.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/templates/map.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.125">
-              <caret line="13" column="64" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="redeemMeal.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/redeemMeal.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.875">
-              <caret line="19" column="10" selection-start-line="2" selection-start-column="4" selection-end-line="19" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_redeemMeals.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/partials/_redeemMeals.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="redeemMealCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/redeemMealCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mealsCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/mealsCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.32345015">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -135,8 +72,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Html5" />
         <option value="JavaScript File" />
+        <option value="Html5" />
       </list>
     </option>
   </component>
@@ -161,8 +98,21 @@
         <option value="$PROJECT_DIR$/views/redeemMeal.html" />
         <option value="$PROJECT_DIR$/controllers/scanMealsCtrl.js" />
         <option value="$PROJECT_DIR$/views/scanMeals.html" />
-        <option value="$PROJECT_DIR$/config/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/config/app.js" />
+        <option value="$PROJECT_DIR$/client/scripts/app.js" />
+        <option value="$PROJECT_DIR$/client/templates/generalMap.html" />
+        <option value="$PROJECT_DIR$/client/templates/chats.html" />
+        <option value="$PROJECT_DIR$/client/templates/tabs.html" />
+        <option value="$PROJECT_DIR$/client/scripts/controllers/mealsCtrl.js" />
+        <option value="$PROJECT_DIR$/client/scripts/controllers/redeemMealCtrl.js" />
+        <option value="$PROJECT_DIR$/client/scripts/controllers/scanMealsCtrl.js" />
+        <option value="$PROJECT_DIR$/client/templates/meals.html" />
+        <option value="$PROJECT_DIR$/client/templates/redeemMeal.html" />
+        <option value="$PROJECT_DIR$/client/templates/scanMeals.html" />
+        <option value="$PROJECT_DIR$/client/scripts/routes.js" />
+        <option value="$PROJECT_DIR$/client/scripts/controllers/mapCtrl.js" />
+        <option value="$PROJECT_DIR$/client/templates/map.html" />
       </list>
     </option>
   </component>
@@ -230,7 +180,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSmiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSmiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSmiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSmiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -258,9 +244,11 @@
       <recent name="$PROJECT_DIR$/frameworks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/scripts/lib" />
+      <recent name="$PROJECT_DIR$/client/scripts" />
+      <recent name="$PROJECT_DIR$/client/templates" />
+      <recent name="$PROJECT_DIR$/client" />
       <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
   <component name="RunManager">
@@ -305,9 +293,9 @@
     <frame x="0" y="23" width="1440" height="832" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42837837" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -341,7 +329,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/styles.css.map">
+    <entry file="file://$PROJECT_DIR$/client/styles/styles.css.map">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -352,18 +340,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/styles.css">
+    <entry file="file://$PROJECT_DIR$/client/styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/generalMapCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -378,15 +358,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/partials/_meals.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.375">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/partials/_images.scss">
+    <entry file="file://$PROJECT_DIR$/client/styles/partials/_images.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.875">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
@@ -394,18 +366,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/partials/_globalStyles.scss">
+    <entry file="file://$PROJECT_DIR$/client/styles/partials/_globalStyles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/redeemMealCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -415,7 +379,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/styles.scss">
+    <entry file="file://$PROJECT_DIR$/client/styles/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10135135">
           <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
@@ -423,7 +387,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/partials/_redeemMeals.scss">
+    <entry file="file://$PROJECT_DIR$/client/styles/partials/_redeemMeals.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.125">
           <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
@@ -431,58 +395,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/meals.html">
+    <entry file="file://$PROJECT_DIR$/client/styles/partials/_meals.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125">
-          <caret line="13" column="64" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/mealsCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/redeemMeal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875">
-          <caret line="19" column="10" selection-start-line="2" selection-start-column="4" selection-end-line="19" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09615385">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/scanMealsCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/scanMeals.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="33" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="33" />
+        <state vertical-scroll-proportion="-1.25">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2027027">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/chats.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="4" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/tabs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0588236">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/redeemMeal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/scanMeals.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3716216">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/meals.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/scripts/lib/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48076922">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/scripts/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.553571">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/scripts/controllers/mealsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/scripts/controllers/redeemMealCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/scripts/controllers/scanMealsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/scripts/controllers/mapCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32345015">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding />
         </state>
       </provider>
