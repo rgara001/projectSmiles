@@ -2,33 +2,36 @@
 angular.module('myApp')
     .controller("mealsCtrl", mealsCtrl);
 
-function mealsCtrl($scope, $reactive){
+function mealsCtrl($scope, $location) {
 
-    $reactive(this).attach($scope);
+    $scope.helpers({
+            meals: () => {
+            return Meals.find({});
+    }});
 
-    this.titless = "My mealss damn it"
+    console.dir($scope.helpers);
+//$scope.meals = [
+//    {
+//        id: 0,
+//        restaurant: "Coyo",
+//        picture: "images/coyo-taco.jpg"
+//    },
+//    {
+//        id: 1,
+//        restaurant: "Mc Donald's",
+//        picture: "images/mc.jpg"
+//    },
+//    {
+//        id: 2,
+//        restaurant: "Pollo Tropical",
+//        picture: "images/pt.jpg"
+//    },
+//    {
+//        id: 3,
+//        restaurant: "Wendy's",
+//        picture: "images/ws.jpg"
+//    }
+//];
 
-    $scope.meals = [
-        {
-            id: 0,
-            restaurant: "Coyo",
-            picture: "images/coyo-taco.jpg"
-        },
-        {
-            id: 1,
-            restaurant: "Mc Donald's",
-            picture: "images/mc.jpg"
-        },
-        {
-            id: 2,
-            restaurant: "Pollo Tropical",
-            picture: "images/pt.jpg"
-        },
-        {
-            id: 3,
-            restaurant: "Wendy's",
-            picture: "images/ws.jpg"
-        }
-    ];
 }
 

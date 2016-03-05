@@ -7,10 +7,12 @@
   .meals .btn-group {
     padding-bottom: 14px; }
 
-.redeem-meal .caption {
-  padding-top: 0px;
-  padding-right: 119px;
-  padding-left: 119px;
-  padding-bottom: 10px; }
+.redeem-meal {
+  padding-top: 20px; }
+  .redeem-meal .caption {
+    padding-top: 0px;
+    padding-right: 119px;
+    padding-left: 119px;
+    padding-bottom: 10px; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -26,7 +26,25 @@ function config($stateProvider, $urlRouterProvider) {
                     controller: 'mealsCtrl'
                 }
             }
+        })
+        .state('tab.meal', {
+            url: '/meals/:mealId',
+            views: {
+                'tab-meals': {
+                    templateUrl: 'client/templates/redeem.html',
+                    controller: 'redeemCtrl'
+                }
+            }
         });
+    //.state('tab.meals', {
+    //    url: '/meals/:mealsId',
+    //    views: {
+    //        'tab-meals': {
+    //            templateUrl: 'client/templates/redeem.html',
+    //            controller: 'redeemCtrl'
+    //        }
+    //    }
+    //});
 
-    $urlRouterProvider.otherwise('tab/map');
+    $urlRouterProvider.otherwise('tab/meals');
 }

@@ -10,7 +10,7 @@
                 </div>
             </div>
             <div class="list-group">
-                <a href="#" class="list-group-item clearfix"  ng-repeat="meal in meals">
+                <a class="list-group-item clearfix"  ng-repeat="meal in meals" href="#/tab/meals/:{{meal.id}}">
                     <img class="my-meal-image pull-right img-rounded" ng-src="{{meal.picture}}" alt="taco">
                     <h4 class="list-group-item-heading">{{meal.restaurant}}</h4>
                 </a>
