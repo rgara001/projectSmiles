@@ -1,11 +1,39 @@
+input {
+  border: 1px solid lightgray !important;
+  padding-left: 4px !important; }
+
+.padding-top-20 {
+  padding-top: 20px !important; }
+
+.padding-bottom-20 {
+  padding-bottom: 20px !important; }
+
 .my-meal-image {
-  width: 80px;
-  height: 80px; }
+  width: 50px;
+  height: 50px; }
 
 .meals {
   padding-top: 20px; }
+  .meals .list-title {
+    margin: 10px; }
+    .meals .list-title .badge {
+      font-size: 30px;
+      color: white;
+      background: gray;
+      padding: 7px; }
+  .meals .list-header {
+    background: lightgray;
+    font-size: 32px; }
   .meals .btn-group {
     padding-bottom: 14px; }
+  .meals .scan-meal-btn {
+    font-size: 24px;
+    width: 100%; }
+  .meals .restaurant-name {
+    padding-top: 16px; }
+  .meals .caret {
+    border: 0px;
+    padding-top: 16px; }
 
 .redeem-meal {
   padding-top: 20px; }
@@ -14,5 +42,30 @@
     padding-right: 119px;
     padding-left: 119px;
     padding-bottom: 10px; }
+
+.login {
+  padding-top: 160px; }
+
+.work {
+  padding-top: 20px; }
+  .work .user-pic-container {
+    padding-top: 20px; }
+  .work .user-pic {
+    width: 140px;
+    height: 140px;
+    border: 4px solid gray; }
+  .work .profile-rate {
+    font-size: 30px; }
+    .work .profile-rate .glyphicon-star {
+      color: #ffff30; }
+    .work .profile-rate .glyphicon-star-empty {
+      color: #ffff30; }
+
+.shutter, .use-photo {
+  background-color: #428bca !important; }
+
+.cancel, .new-photo {
+  background-color: gray !important;
+  color: black; }
 
 /*# sourceMappingURL=styles.css.map */

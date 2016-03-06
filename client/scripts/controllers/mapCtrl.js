@@ -2,9 +2,7 @@ angular
     .module('myApp')
     .controller('mapCtrl', mapCtrl);
 
-function mapCtrl ($scope, $reactive) {
-
-    $reactive(this).attach($scope);
+function mapCtrl ($scope, $meteor) {
 
     $scope.test= "Angular works"
 

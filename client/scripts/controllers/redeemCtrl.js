@@ -2,7 +2,10 @@
 angular.module('myApp')
     .controller("redeemCtrl", redeemCtrl);
 
-function redeemCtrl($scope, $reactive, $location){
+function redeemCtrl($scope, $reactive, $location, $ionicNavBarDelegate){
+
+    $ionicNavBarDelegate.showBackButton(true);
+
 
     $reactive(this).attach($scope);
 

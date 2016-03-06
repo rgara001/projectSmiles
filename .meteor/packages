@@ -22,3 +22,7 @@ mrt:bootstrap-3
 driftyco:ionic
 mdg:geolocation
 dburles:google-maps
+mquandalle:bower
+natestrauser:font-awesome
+netanelgilad:ng-cordova
+mdg:camera

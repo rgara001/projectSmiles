@@ -1,7 +1,36 @@
 .meals{
 
   padding-top: 20px;
+  .list-title{
+    margin: 10px;
+
+    .badge{
+      font-size: 30px;
+      color: white;
+      background: gray;
+      padding: 7px;
+    }
+
+  }
+
+  .list-header{
+    background: lightgray;
+    font-size: 32px;
+  }
   .btn-group{
     padding-bottom : 14px;
+  }
+
+  .scan-meal-btn{
+    font-size: 24px;
+    width:100%;
+  }
+  .restaurant-name{
+    padding-top: 16px;
+  }
+
+  .caret{
+    border: 0px;
+    padding-top: 16px;
   }
 }

@@ -35,16 +35,43 @@ function config($stateProvider, $urlRouterProvider) {
                     controller: 'redeemCtrl'
                 }
             }
+        })
+        .state('tab.scan', {
+            url: '/scan',
+            views: {
+                'tab-meals': {
+                    templateUrl: 'client/templates/scan.html',
+                    controller: 'scanCtrl'
+                }
+            }
+        })
+        .state('tab.work', {
+            url: '/work',
+            views: {
+                'tab-work': {
+                    templateUrl: 'client/templates/work.html',
+                    controller: 'workCtrl'
+                }
+            }
+        })
+        .state('tab.green', {
+            url: '/green',
+            views: {
+                'tab-green': {
+                    templateUrl: 'client/templates/green.html',
+                    controller: 'greenCtrl'
+                }
+            }
+        })
+        .state('tab.login', {
+            url: '/login',
+            views: {
+                'tab-login': {
+                    templateUrl: 'client/templates/login.html',
+                    controller: 'loginCtrl'
+                }
+            }
         });
-    //.state('tab.meals', {
-    //    url: '/meals/:mealsId',
-    //    views: {
-    //        'tab-meals': {
-    //            templateUrl: 'client/templates/redeem.html',
-    //            controller: 'redeemCtrl'
-    //        }
-    //    }
-    //});
 
-    $urlRouterProvider.otherwise('tab/meals');
+    $urlRouterProvider.otherwise('tab/map');
 }

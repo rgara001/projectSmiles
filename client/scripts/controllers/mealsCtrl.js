@@ -2,7 +2,13 @@
 angular.module('myApp')
     .controller("mealsCtrl", mealsCtrl);
 
-function mealsCtrl($scope, $location) {
+function mealsCtrl($scope, $ionicHistory, $ionicNavBarDelegate, $location, $meteor) {
+    console.log($location.path());
+    var previousView = $location.path();
+    if( previousView == "/tab/meals"){
+        $ionicHistory.clearHistory();
+        $ionicNavBarDelegate.showBackButton(false);
+    }
 
     $scope.helpers({
             meals: () => {
@@ -10,6 +16,18 @@ function mealsCtrl($scope, $location) {
     }});
 
     console.dir($scope.helpers);
+
+    $scope.tabOne = true;
+    $scope.hideBackButton = true;
+
+$scope.scanMeal = function(){
+    $meteor.getPicture().then(function(data){
+        $scope.imageData = data;
+    });;
+
+}
+
+
 //$scope.meals = [
 //    {
 //        id: 0,
@@ -33,5 +51,8 @@ function mealsCtrl($scope, $location) {
 //    }
 //];
 
+
+
 }
+
 
