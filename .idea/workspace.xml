@@ -2,76 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c6d9e85-3ba8-4b36-84ef-a47c79bc0bfc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/styles/partials/_login.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/styles/partials/_overrides.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/styles/partials/_work.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/green.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/scripts/controllers/greenCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/scripts/controllers/loginCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/work.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/scripts/controllers/workCtrl.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/HELP-US-OUT.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/css/font-awesome.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/less/animated.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/scss/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/font-awesome/scss/font-awesome.scss" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/scripts/controllers/scanMealsCtrl.js" afterPath="$PROJECT_DIR$/client/scripts/controllers/scanCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/templates/scanMeals.html" afterPath="$PROJECT_DIR$/client/templates/scan.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/bbfe0939511afc51def4e797bb46929ac1fdb8e5/_globalStyles.scssc" afterPath="$PROJECT_DIR$/.sass-cache/bbfe0939511afc51def4e797bb46929ac1fdb8e5/_globalStyles.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/bbfe0939511afc51def4e797bb46929ac1fdb8e5/_images.scssc" afterPath="$PROJECT_DIR$/.sass-cache/bbfe0939511afc51def4e797bb46929ac1fdb8e5/_images.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/bbfe0939511afc51def4e797bb46929ac1fdb8e5/_meals.scssc" afterPath="$PROJECT_DIR$/.sass-cache/bbfe0939511afc51def4e797bb46929ac1fdb8e5/_meals.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/cf0bc02598eee9b1b0c5bb6f29002e14b9dd0418/styles.scssc" afterPath="$PROJECT_DIR$/.sass-cache/cf0bc02598eee9b1b0c5bb6f29002e14b9dd0418/styles.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/partials/_globalStyles.scss" afterPath="$PROJECT_DIR$/client/styles/partials/_globalStyles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/partials/_images.scss" afterPath="$PROJECT_DIR$/client/styles/partials/_images.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/partials/_meals.scss" afterPath="$PROJECT_DIR$/client/styles/partials/_meals.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/map.html" afterPath="$PROJECT_DIR$/client/templates/map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/scripts/controllers/mapCtrl.js" afterPath="$PROJECT_DIR$/client/scripts/controllers/mapCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/meals.html" afterPath="$PROJECT_DIR$/client/templates/meals.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/scripts/controllers/mealsCtrl.js" afterPath="$PROJECT_DIR$/client/scripts/controllers/mealsCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/projectSmiles.iml" afterPath="$PROJECT_DIR$/.idea/projectSmiles.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/scripts/controllers/redeemCtrl.js" afterPath="$PROJECT_DIR$/client/scripts/controllers/redeemCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/scripts/routes.js" afterPath="$PROJECT_DIR$/client/scripts/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/bbfe0939511afc51def4e797bb46929ac1fdb8e5/_overrides.scssc" afterPath="$PROJECT_DIR$/.sass-cache/bbfe0939511afc51def4e797bb46929ac1fdb8e5/_overrides.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/partials/_overrides.scss" afterPath="$PROJECT_DIR$/client/styles/partials/_overrides.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/styles.css.map" afterPath="$PROJECT_DIR$/client/styles/styles.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/styles.css" afterPath="$PROJECT_DIR$/client/styles/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/styles.scss" afterPath="$PROJECT_DIR$/client/styles/styles.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/tabs.html" afterPath="$PROJECT_DIR$/client/templates/tabs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="projectSmiles.iws" />
@@ -107,8 +42,18 @@
       <file leaf-file-name="meals.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/templates/meals.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state vertical-scroll-proportion="-14.375">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tabs.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/templates/tabs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5487805">
+              <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -124,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_overrides.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_overrides.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/styles/partials/_overrides.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14634146">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state vertical-scroll-proportion="-5.625">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -208,7 +153,6 @@
         <option value="$PROJECT_DIR$/client/scripts/controllers/workCtrl.js" />
         <option value="$PROJECT_DIR$/client/templates/work.html" />
         <option value="$PROJECT_DIR$/client/styles/partials/_work.scss" />
-        <option value="$PROJECT_DIR$/client/templates/tabs.html" />
         <option value="$PROJECT_DIR$/client/scripts/routes.js" />
         <option value="$PROJECT_DIR$/client/scripts/controllers/greenCtrl.js" />
         <option value="$PROJECT_DIR$/client/templates/green.html" />
@@ -221,6 +165,7 @@
         <option value="$PROJECT_DIR$/client/templates/meals.html" />
         <option value="$PROJECT_DIR$/client/styles/partials/_meals.scss" />
         <option value="$PROJECT_DIR$/client/styles/partials/_overrides.scss" />
+        <option value="$PROJECT_DIR$/client/templates/tabs.html" />
       </list>
     </option>
   </component>
@@ -407,7 +352,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="SearchEverywhereHistoryKey" value="glo&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/styles/partials/_globalStyles.scss&#10;mea&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/styles/partials/_meals.scss&#10;sca&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/templates/scan.html&#10;ro&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/scripts/routes.js&#10;tabs&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/templates/tabs.html&#10;wor&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/templates/work.html&#10;tab&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/templates/tabs.html&#10;work&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/templates/work.html&#10;scan&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/templates/scan.html&#10;redee&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/scripts/controllers/redeemCtrl.js&#10;meal&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/scripts/controllers/mealsCtrl.js&#10;log&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/scripts/controllers/loginCtrl.js&#10;lo&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/styles/partials/login.scss&#10;co&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/scripts/lib/collections.js&#10;boo&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/server/bootstrap.js&#10;coll&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/scripts/lib/collections.js&#10;rede&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/scripts/controllers/redeemMealCtrl.js" />
+    <property name="SearchEverywhereHistoryKey" value="tabs&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/templates/tabs.html&#10;glo&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/styles/partials/_globalStyles.scss&#10;mea&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/styles/partials/_meals.scss&#10;sca&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/templates/scan.html&#10;ro&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/scripts/routes.js&#10;wor&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/templates/work.html&#10;tab&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/templates/tabs.html&#10;work&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/templates/work.html&#10;scan&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/templates/scan.html&#10;redee&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/scripts/controllers/redeemCtrl.js&#10;meal&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/scripts/controllers/mealsCtrl.js&#10;log&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/scripts/controllers/loginCtrl.js&#10;lo&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/styles/partials/login.scss&#10;co&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/scripts/lib/collections.js&#10;boo&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/server/bootstrap.js&#10;coll&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/scripts/lib/collections.js&#10;rede&#9;FILE&#9;file:///Users/alejandro/Documents/Development/projectSmiles/client/scripts/controllers/redeemMealCtrl.js" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -630,14 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/tabs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.125">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/work.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625">
@@ -710,26 +647,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/styles/partials/_globalStyles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/styles/partials/_images.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.875">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/meals.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -750,10 +671,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/partials/_globalStyles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/styles/partials/_overrides.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14634146">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/meals.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.375">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/tabs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5487805">
+          <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
           <folding />
         </state>
       </provider>
